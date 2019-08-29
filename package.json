@@ -1,0 +1,29 @@
+{
+  "name": "OneAppRN",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start --reset-cache",
+    "ios": "react-native run-ios",
+    "android": "react-native run-android",
+    "build:android": "cd android && ./gradlew assembleRelease"
+  },
+  "dependencies": {
+    "antd-mobile-rn": "^2.2.1",
+    "lodash": "^4.17.10",
+    "react": "^16.4.1",
+    "react-native": "^0.56.0",
+    "react-native-camera": "git+https://git@github.com/react-native-community/react-native-camera",
+    "react-native-meteor": "^1.4.0",
+    "react-native-table-component": "^1.1.8",
+    "react-navigation": "^2.9.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "babel-plugin-import": "^1.8.0",
+    "babel-preset-react-native": "^5.0.0",
+    "eslint": "^5.2.0",
+    "eslint-plugin-react": "^7.10.0",
+    "eslint-plugin-react-native": "^3.2.1"
+  }
+}
