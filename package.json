@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "antd-mobile-rn": "^2.2.1",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.21",
     "react": "^16.4.1",
     "react-native": "^0.56.0",
     "react-native-camera": "git+https://git@github.com/react-native-community/react-native-camera",
